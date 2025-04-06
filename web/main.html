@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Редактор кода - Основное окно</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Подключаем highlight.js -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/default.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Редактор кода</h1>
+    <input type="text" id="filename" placeholder="Введите имя файла">
+    <textarea id="editor" rows="10" cols="50" placeholder="Введите код..."></textarea>
+    <button onclick="saveFile()">Сохранить</button>
+    <pre><code id="highlighted" class="javascript"></code></pre>
+  </div>
+  <script src="/eel.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  <script src="script.js"></script>
+</body>
+</html>

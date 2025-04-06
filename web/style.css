@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #89f7fe, #66a6ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+textarea {
+  width: 80%;
+  margin-bottom: 10px;
+}
